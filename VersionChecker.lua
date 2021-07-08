@@ -167,13 +167,11 @@ function v.Activate()
 				UpToDateGame = false
 				v.GameUpdated:Fire(DateTime.fromIsoDate(Updated))
 				GameLastUpdated = GetGameProductInfo().Updated
-				PlaceLastUpdated = GetPlaceProductInfo().Updated
 			end
 			Updated = GetPlaceProductInfo().Updated
 			if PlaceLastUpdated ~= Updated then
 				UpToDatePlace = false
 				v.PlaceUpdated:Fire(DateTime.fromIsoDate(Updated))
-				GameLastUpdated = GetGameProductInfo().Updated
 				PlaceLastUpdated = GetPlaceProductInfo().Updated
 			end
 		end
