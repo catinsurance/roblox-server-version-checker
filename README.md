@@ -3,7 +3,7 @@ Checks to see if the current Roblox server is up to date with the newest update 
 
 ## Installation
 
-Download the file to your computer (or alternatively get it from the Roblox catalog [here]()) and import to Roblox. A link to get it from the Roblox catalog will be available soon.
+Download the file to your computer (or alternatively get it from the Roblox catalog [here](https://www.roblox.com/library/7066324528/VersionChecker)) and import to Roblox. A link to get it from the Roblox catalog will be available soon.
 After you have installed it and imported it to Roblox Studio, place it somewhere that a local script can access. For this example, I'll be using *ReplicatedStorage.*
 
 ```lua
